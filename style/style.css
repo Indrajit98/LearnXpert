@@ -1,0 +1,180 @@
+/*Basic setup*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:focus{
+    outline: 0;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Montserrat, sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 13px;
+}
+h1{
+    font-family: 'PT Serif'; 
+    color: #444;
+    font-size: 65px;
+    padding-top: 1.5rem 0 1rem 0;
+    text-align: left;
+}
+h1::after{
+    content: "";
+    display: block;
+    height: 4px;
+    background: #707070;
+    width:220px;
+    margin: right;
+    margin-top:10px;
+}
+h2{
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 800 !important;
+    color: #4d4d4d;
+    
+}
+h3{
+    font-size: 18px;
+    color: #808080;
+    font-weight: 800;
+    font-family: monospace;
+    
+}
+h3::after{
+    content: "";
+    display: block;
+    height: .4px;
+    background: #1a56d6;
+    width:80px;
+    margin: right;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 1.6rem;
+}
+.secClass{
+    padding: 80px 0;
+}
+.common-btn{
+    width: 12rem;
+    font-size: 1.6rem;
+    background: #3c6afc !important;
+    border: none;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: .3rem;
+}
+/* navbar style start */
+.menu-bar{
+    box-shadow: 1.1px 2px 3px 0px #e5e5e5;
+}
+.bg-navbar{
+    background: #1a56d6;
+}
+.logo {
+    font-family: 'Pacifico', cursive;
+    color: #1a56d6 !important;
+    font-size: 30px;
+    padding: 0 5rem 1rem 0;
+    font-weight: 900 !important;
+}
+.menu-list li a{
+    color: #3c6afc !important;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Times New Roman';
+    padding: 0 1.4rem !important;
+}
+form .common-btn{
+    font-size: 1.5rem;
+    background-color: #ffffff !important;
+    color: #444;
+    border: .1rem solid #1a56d6;
+    border-radius: .3rem !important;
+}
+form .common-btn:hover{
+    background: #1a56d6 !important;
+    color: #ffffff;
+}
+/* navbar style End */
+/* Home style start */
+.home-section{
+    background: url(../image/homeBackground.jpg);
+    text-align: center;
+    color: #fff;   
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.home-ptag p{
+    font-family: 'PT Serif'; 
+    text-align: left;
+    font-size: 30px;
+    color: #666666;
+    padding-top: 10px;
+}
+.common-card{
+    margin-top:16rem;
+    outline: none;
+    border: none;
+    box-shadow:3px 5px 10px 0px #dfdfdf;               
+}
+/* Home style End */
+/* About style start */
+.about h1{
+    font-size: 3rem;
+    padding: 0;
+}
+.about h1::after{
+    display: none;
+}
+.image{
+    width:100%;
+    margin-top:0;
+}
+/* Course style start */
+.course-title{
+    font-family: 'PT Serif', serif;
+    color: #444;
+    z-index: 1000;
+}
+.course-section{
+    background-color: #f7f7f7;
+    position: relative;
+}
+img{
+    width: 20%;
+}
+.wave{
+    z-index: 1000;
+}
+.pat{
+    position: absolute;
+    background-color: #f7f7f7;
+    bottom:0;
+}
+.color-ptag{
+    color: #1a56d6;
+}
+.rating-name h3{
+    color:#333;
+    font-family: 'PT Serif', serif;
+}
+.rating-name h3::after{
+    display: none;
+}
+.star-rating{
+    color: #ed8000;
+}
+.card-body .common-btn{
+    color: #fff;
+    background: #1a56d6;
+}
+
