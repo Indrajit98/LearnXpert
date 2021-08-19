@@ -208,11 +208,14 @@ hr{
     cursor: pointer;
 }
 /*LiveClassSection style End */
+.newsportal a{
+    color: #1a56d6;
+    font-weight: 600;
+}
 /*footer Section style End */
 .footer-section{
     background-color:#212121;
     padding: 8rem 0 2rem 0;
-
 }
 .footer-section h3{
     font-family:'PT Serif', serif; 
