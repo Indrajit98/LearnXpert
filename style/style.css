@@ -20,7 +20,7 @@ h1{
     font-family: 'PT Serif'; 
     color: #444;
     font-size: 65px;
-    padding-top: 1.5rem 0 1rem 0;
+    padding: 1.5rem 0 1rem 0;
     text-align: left;
 }
 h1::after{
@@ -29,7 +29,6 @@ h1::after{
     height: 4px;
     background: #707070;
     width:220px;
-    margin: right;
     margin-top:10px;
 }
 h2{
@@ -52,7 +51,6 @@ h3::after{
     height: .4px;
     background: #1a56d6;
     width:80px;
-    margin: right;
     margin-top:10px;
     margin-bottom: 10px;
 }
@@ -107,6 +105,11 @@ form .common-btn{
 form .common-btn:hover{
     background: #1a56d6 !important;
     color: #ffffff;
+}
+li a:hover{
+    background: #1a56d6 !important;
+    color: #fff !important;
+    border-radius: .2rem;
 }
 /* navbar style End */
 /* Home style start */
@@ -197,6 +200,10 @@ hr{
 .Achievements-section .text-start p{
     text-align: justify !important;
     width: 50%;
+}
+iframe{
+    width: 100%;
+    height: 40rem;
 }
 /* Achievements style End */
 
