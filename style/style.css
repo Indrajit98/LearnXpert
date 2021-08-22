@@ -73,6 +73,11 @@ p{
     color: #fff;
     border-radius: .3rem;
 }
+.common-btn:hover{
+    background: #F8F9FA!important;
+    color: #1a56d6;
+    border: .1rem solid #1a56d6;
+}
 /* navbar style start */
 .menu-bar{
     box-shadow: 1.1px 2px 3px 0px #e5e5e5;
@@ -106,7 +111,7 @@ form .common-btn:hover{
     background: #1a56d6 !important;
     color: #ffffff;
 }
-li a:hover{
+.menu-bar li a:hover{
     background: #1a56d6 !important;
     color: #fff !important;
     border-radius: .2rem;
@@ -180,9 +185,9 @@ img{
 .star-rating{
     color: #ed8000;
 }
-.card-body .common-btn{
-    color: #fff;
-    background: #1a56d6;
+.border:hover{
+    box-shadow: 0 10px 50px 0 rgb(0 0 0 / 50%);
+    transition:5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 /* Course style End */
 /* Achievements style start */
@@ -213,12 +218,28 @@ iframe{
 }
 .liveClassSection .icon{
     cursor: pointer;
+    font-size: 3rem;
 }
+.liveClassSection .icon:hover{
+    background: #1a56d6;
+    color: #f7f7f7;
+    border-radius: 50%;
+    border: .1rem solid #1a56d6;
+}  
 /*LiveClassSection style End */
+/* Image section Start*/
+.image-hover:hover{
+    cursor: pointer;
+    opacity: .8;
+    transition: .9s;
+}
+/* Image section End*/
+
 .newsportal a{
     color: #1a56d6;
     font-weight: 600;
 }
+
 /*footer Section style End */
 .footer-section{
     background-color:#212121;
@@ -236,6 +257,9 @@ iframe{
 .footer-section li,a{
     list-style: none;
     color: #fff;
+}
+.footer-section .fab :hover{
+    color: #1a56d6;
 }
 .footer-section hr{
     width: 100%;
